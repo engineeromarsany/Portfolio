@@ -1,0 +1,533 @@
+/* ==============================
+ common css
+============================= */
+
+a {
+  text-decoration: none;
+}
+ul,ol{
+  list-style: none;
+}
+.title {
+  text-align: center;
+}
+.title h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #e5745d;
+  font-family: "Vollkorn", serif;
+  position: relative;
+}
+.title h4::after {
+  position: absolute;
+  top: 6px;
+  left: 41%;
+  width: 40px;
+  height: 2px;
+  background: #E5745D;
+  content: "";
+}
+.title h4::before {
+  position: absolute;
+  top: 5px;
+  left: 44%;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #E5745D;
+  content: "";
+}
+
+
+.title h2 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #00413d;
+  font-family: "Vollkorn", serif;
+  width: 524px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  padding-top: 11px;
+}
+/* ==============================
+ common css
+============================= */
+
+/* ==============================
+
+Navber part start
+================================= */
+nav {
+  padding: 18px 0px;
+}
+.navbar-nav {
+  column-gap: 50px;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-weight: 400;
+  color: #00413d;
+  font-family: "Jost", sans-serif;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  transition: 0.4s;
+}
+.nav-link:hover {
+  color: #e5745d;
+}
+.navberbtn {
+  background: #e5745d;
+  padding: 22px 44px;
+  margin: 24px 46px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  font-family: "Jost", sans-serif;
+  position: relative;
+}
+.navberbtn::after {
+  position: absolute;
+  left: 7px;
+  top: 5px;
+  height: 60px;
+  width: 184px;
+  border: 1px solid rgb(255, 255, 255);
+  content: "";
+}
+/* ==============================
+
+Navber part end
+================================= */
+/* ==============================
+
+Banner part start
+================================= */
+
+.banner {
+  background: #00413d;
+  padding: 220px 0px;
+  position: relative;
+  overflow: hidden;
+}
+.banner .overly {
+  width: 40%;
+  height: 100%;
+  background-image: url("../images/images.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: -40%;
+  transition: 0.6s;
+}
+
+.banner:hover .overly {
+  right: 0;
+}
+
+.banner h1 {
+  font-size: 100px;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Vollkorn", serif;
+}
+.banner h1 span {
+  display: block;
+}
+.banner p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #aba5a5;
+  font-family: "Jost", sans-serif;
+  width: 670px;
+  padding-top: 14px;
+  padding-bottom: 50px;
+}
+.banner p span {
+  color: #ffffff;
+  font-weight: 600;
+}
+.commonBtn {
+  background: #e5745d;
+  width: 180px;
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+  position: relative;
+}
+.commonBtn a::after {
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  content: "";
+  height: 56px;
+  width: 172px;
+  border: 1px solid white;
+}
+.commonBtn a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  font-family: "Jost", sans-serif;
+}
+
+/* ==============================
+
+Banner part end
+================================= */
+/* ==============================
+
+Service part start
+================================= */
+.service {
+  padding-top: 220px;
+  padding-bottom: 120px;
+}
+
+.service .card {
+  width: 100% !important;
+}
+.service .card img {
+  width: 25%;
+}
+
+.service .card {
+  padding: 50px 35px;
+  border: 0;
+  -webkit-box-shadow: 0px 7px 21px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 7px 21px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 7px 21px -12px rgba(0, 0, 0, 0.75);
+  
+}
+.service .card .card-body {
+  padding: 0;
+}
+.service .card .card-body .card-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #00413d;
+  font-family: "Vollkorn", serif;
+  padding-top: 26px;
+  padding-bottom: 15px;
+}
+.service .card .card-body .card-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #00413d;
+  font-family: "Jost", sans-serif;
+  padding-bottom: 30px;
+  width: 245px;
+}
+.service .card .card-body i {
+  font-size: 25px;
+  transition: .4s;
+}
+.service .card:hover i {
+  color: red;
+}
+
+
+/* ==============================
+
+Service part end
+================================= */
+/* ==============================
+
+About part Start
+================================= */
+.about{
+  padding-bottom: 120px;
+}
+.fristImage{
+  width: 62%;
+}
+
+
+
+.title2{
+  text-align: left;
+}
+.title2 h2{
+  width: auto;
+}
+.title2 h4{
+  margin-left: 60px;
+}
+.title2 h4::after {
+  position: absolute;
+  top: 9px;
+  left: -9%;
+  width: 40px;
+  height: 2px;
+  background: #E5745D;
+  content: "";
+}
+.title h4::before {
+  position: absolute;
+  top: 7px;
+  left: -13px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #E5745D;
+  content: "";
+}
+
+.about p{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+  color: #00413D;
+  width: 570px;
+}
+
+/* ==============================
+
+About part end
+================================= */
+/* ==============================
+
+progresber part start
+================================= */
+.progresber {
+  padding-bottom: 120px;
+}
+
+.progresber .box{
+  width: 280px;
+  height: 280px;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 32px -10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 32px -10px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 32px -10px rgba(0,0,0,0.75);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 24px;
+ 
+
+}
+.progresber .box .progresber_box{
+  width: 167px;
+  height: 167px;
+  border: 8px solid #E5745D;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.progresber .box .progresber_box h2{
+color: #E5745D;
+font-size: 34px;
+font-weight: 600;
+font-family: "Vollkorn", serif;
+}
+.progresber .box h4{
+  font-size: 24px;
+  font-weight: 600;
+  color: #00413d;
+  font-family: "Vollkorn", serif;
+}
+/* ==============================
+
+progresber part end
+================================= */
+
+.title3 h4::before {
+  position: absolute;
+  top: 4px;
+  left: 44%;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #E5745D;
+  content: "";
+}
+
+.portfolio .card{
+  width: 100% !important;
+  position: relative;
+}
+.portfolio .card .card-body{
+  background: #00413D;
+}
+.portfolio .card .card-title{
+ font-size: 24px;
+ font-weight: 600;
+ color: #fff;
+ font-family: "Vollkorn", serif;
+}
+.portfolio .card .card-text{
+ font-size: 14px;
+ font-weight: 400;
+ color: #fff;
+ font-family: "Vollkorn", serif;
+}
+
+.portfolio .card .overly{
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: 0.4s;
+}
+.portfolio .card .overly .round{
+  width: 70px;
+  height: 70px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  opacity: 0;
+  transition: 0.4s;
+}
+.portfolio .card:hover .overly .round{
+  opacity: 1;
+
+
+}
+.portfolio .card .overly .round i{
+ color: red;
+ font-size: 26px;
+
+
+}
+.portfolio .card:hover .overly {
+  opacity: 1;
+  background:rgba(0, 65, 61,0.4);
+
+
+}
+/* =============
+testmoinal start
+================ */
+ .testmoinal{
+  padding: 120px 0px;
+  margin: 120px 0px;
+  background: #F9F4F1;
+ }
+ .testmoinal .box1{
+  padding: 30px 40px;
+  background: #fff;
+  border-top: 8px solid #E5745D;
+position: relative;
+ }
+.testmoinal .box1 .icon_iamge {
+  position: absolute;
+  bottom: -33px;
+  left: 72px;
+}
+.testmoinal ul{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+/* =============
+testmoinal end
+================ */
+/* =============
+contact start
+================ */
+
+.contact img{
+  width: 100%;
+}
+.contact .input_box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 50px;
+  padding-bottom: 50px;
+
+}
+.contact .input{
+  width: 46%;
+  padding: 12px 10px;
+  border: 0px;
+  border-bottom: 1px solid rgba(0, 65, 61,0.1);
+  outline: 0;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  font-family: "Jost", sans-serif;
+}
+.contact .input::placeholder{
+  font-size: 18px;
+  font-weight: 400;
+  color: #00413D;
+  font-family: "Jost", sans-serif;
+
+}
+.contact .input5{
+  width: 100%;
+}
+/* =============
+contact end
+================ */
+/* =============
+Footer straert
+================ */
+
+.footer {
+  background: #00413D;
+  padding: 80px 0px;
+  margin-top: 80px;
+  text-align: center;
+
+}
+.footer .ulOne{
+  padding: 40px 0px;
+}
+
+.footer .ulOne ul li{
+  font-size: 18px;
+
+  font-weight: 500;
+  color: #fff;
+  font-family: "Jost", sans-serif;
+  border-right: 2px solid rgba(255, 255, 255,0.10);
+  padding-right: 33px;
+
+}
+.footer .ulOne ul .lastLI{
+  border-right: 0;
+
+}
+.footer .ulTwo ul li{
+ 
+}
+.footer .ulTwo ul li i{
+  color: white;
+  background: #E5745D;
+  padding: 20px;
+  border-radius: 50%;
+  font-size: 24px;
+  
+
+}
+.copy{
+  background: #00413D;
+  padding: 80px 0px;
+  text-align: center;
+}
+
+.copy p{
+  border-top: 1px solid rgba(245, 245, 245,0.10);
+  width: 1400px;
+  margin: 0 auto;
+  color: rgba(245, 245, 245,0.10);
+  padding-top: 20px;
+  
+
+}
+/* =============
+Footer end
+================ */
